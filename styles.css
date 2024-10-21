@@ -1,0 +1,161 @@
+*{
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(169,227,251);
+    margin: 1px;
+}
+.container{ 
+    position: fixed;
+    width: 20%;
+    top: 0%;
+    text-decoration: none;
+    padding-left: 10px;
+    margin-right: 3px;
+    background-color: rgb(244, 248, 248);
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 3px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+nav li{
+    list-style-type: none;
+
+}
+header{
+    display: flex;
+    position:fixed;
+    top: 0;
+    left: 21%;
+    z-index: 5;
+    background-color: white;
+    justify-content: space-between;
+    width: 78%;
+    height: 10%;
+    align-items: center;
+    padding: 0 10px;
+    border-bottom: 5px;
+    margin-bottom: 5px;
+    position: fixed;
+    margin-bottom: 1px;
+}
+nav li a button{
+    font-size: 12px; color: #000;
+    border-right: 15px solid tomato;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+    position: relative;
+    left: 25px;
+    border-radius: 10px;
+}
+#color{
+    background-color: #251c1c;
+    color: white;
+}
+.content{
+    width: 78%;
+    height: 700px;
+    position: absolute;
+    background-color: white;
+    top:11%;
+    left:21%;
+    display: flex;
+}
+.head{
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+}
+.round{
+    width: 45px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 50%
+}
+.round{
+    position: absolute;
+    left: 120px;
+    top: 20px;
+}
+.dates{
+    display: flex;
+    align-content: center;
+    width: 40%;
+    justify-content: space-evenly;
+
+}
+.date{
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    align-content: center;
+}
+.all{
+    height: 30px;
+    width: 200px;
+    border: 2px solid black;
+    align-content: center;
+}
+.one{
+    height: 130px;
+    width: 1000px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    top: 150px;
+    left: 320px;
+    margin-bottom: 5px;
+}
+.prog{
+    display: flex;
+    justify-content: space-between;
+}
+.two{
+    display: flex;
+    width: 30%;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20px;
+}
+.class1{
+    color: grey;
+    padding-right: 20px;
+    border-right: 2px solid gray;
+}
+.class2{
+    color: gray;
+    padding-right: 20px;
+    border-right: 2px solid gray;
+}
+.oct{
+    padding-top: 10px;
+    padding-left: 20px;
+    color: red;
+}
+.sess{
+    position: relative;
+    top: 30px;
+}
+span{
+    padding: 20px;
+    background-color: tomato;
+}
+button{
+    padding: 5px;
+    background-color: green;
+    color: #000;
+}

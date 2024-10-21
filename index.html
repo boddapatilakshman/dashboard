@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(169,227,251);
+            margin: 1px;
+        }
+        .container{ 
+            position: fixed;
+            width: 20%;
+            text-decoration: none;
+            padding-left: 10px;
+            margin-right: 3px;
+            background-color: rgb(244, 248, 248);
+        }
+        nav li a{
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            margin-right: 3px;
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        nav li{
+            list-style-type: none;
+
+        }
+        header{
+            display: flex;
+            position:fixed;
+            top: 0;
+            left: 21%;
+            z-index: 5;
+            background-color: white;
+            justify-content: space-between;
+            width: 78%;
+            height: 10%;
+            align-items: center;
+            padding: 0 10px;
+            border-bottom: 5px;
+            margin-bottom: 5px;
+            position: fixed;
+        }
+        nav li a button{
+            font-size: 12px; color: #000;
+            border-right: 15px solid tomato;
+            background-color: tomato;
+            padding: 10px;
+            border-radius: 10px;
+            align-items: center;
+            position: relative;
+            left: 25px;
+            border-radius: 10px;
+        }
+        .set{
+            width: 78%;
+            height: 40%;
+            position: absolute ;
+            top:11%;
+            left:21%;
+            display: flex;
+            font-weight: bold;
+            justify-content: space-evenly;
+            margin-bottom: 5px;
+        }
+        #color{
+            background-color: #251c1c;
+            color: white;
+        }
+        .div1{
+            width: 30%;
+            height: 100%;
+            border-radius: 5px;
+            border: 1px solid white;
+            padding: 10px;
+            background-color: white;
+
+        }
+        .div2{
+            width: 30%;
+            height: 100%;
+            border-radius: 5px;
+            border: 1px solid white;
+            padding: 10px;
+            background-color: white;
+        }
+        .div3{
+            width: 30%;
+            height: 100%;
+            border-radius: 5px;
+            border: 1px solid white;
+            padding: 10px;
+            background-color: white;
+        }
+        h3{
+            text-align: center;
+        }
+        .div1 p{
+            padding-left: 20px;
+        }
+        .div2 p{
+            padding-left: 20px;
+        }
+        .div3{
+            padding-left: 20px;
+        }
+        .batch{
+            position: absolute;
+            left: 23%;
+            width: 74%;
+            top: 52%;
+            background-color: white;
+            text-align: left;
+            display: flex;
+
+        }
+        .a{flex: 4; padding: 5px;}
+        .b{flex: 5;padding: 5px}
+        .frame{
+            width: 74%;
+            height: 42%;
+            position: absolute;
+            left: 23%;
+            top: 56%;
+            overflow: scroll;
+            background-color: white;
+            
+        }
+        .frame table{
+            width: 100%;
+        }
+        .frame table td{
+            width: 25%;
+            padding-left: 10%;
+        }
+        .frame table th{
+            background-color: #000;
+            color: white;
+        }
+        .si{
+            padding-right: 35px;
+        }
+        .fix{
+            display: flex;
+            justify-content: space-evenly;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <div class="container">
+        <img src="../10000coders-logo.webp"><br><br>
+        <nav>
+        <li><a href="#home"><i class='bx bx-home-alt'></i>&emsp;HOME</a></li><br><br>
+        <li><a href="./classes.html"><i class='bx bx-book-open'></i>&emsp;CLASSES</a></li><br><br>
+        <li><a href="#notes"><i class='bx bxs-book-open'></i>&emsp;NOTES</a></li><br><br>
+        <li><a href="#assinments"><i class='bx bx-book-reader'>&emsp;</i>ASSINMENTS</a></li><br><br>
+        <li><a href="#projects"><i class='bx bx-layout'></i>&emsp;PROJECTS</a></li><br><br>
+        <li><a href="#attendance"><i class='bx bx-street-view'></i>&emsp;ATTENDANCE</a></li><br><br>
+        <li><a href="#feed back"><i class='bx bx-message-dots' ></i>&emsp;FEED BACK</a></li><br><br>
+        <li><a href="#interview"> <i class='bx bx-user-voice'></i>&emsp;INTERVIEW</a></li><br><br>
+        <li><a href="#report bug"><BUTTON>REPORT BUG</BUTTON></a></li><br><br>
+        </nav>
+    </div>
+    </div>
+    <header>
+        <h3>WELCOME,B LAKSHMAN</h3>
+        <p><i class='bx bx-bell bx-md'></i>
+        <i class='bx bx-happy-alt bx-md'></i><small>Batch-22r</small></p>
+    </header>
+    <section class="set">
+        <div class="div1">
+            <u><h3>profile Details</h3></u><br><br>
+            <p>Student Name: B LAKSMAN</p><br><br>
+            <p>STUDENT EMAIL: boddapatilaksman8@mail.com</p><br><br>
+            <p>Student Mobile: 6304381824</p>
+
+        </div>
+        <div class="div2">
+            <u><h3><i class='bx bxs-user'></i>Recent Record Session</h3><br><br></u>
+            <div id="color">
+            <p>Topic: css,combinators</p><br><br>
+            <p>lecture:css</p>
+            <p><u>Date:2024-09-10 time:14:00</u></p><br><br>
+            <p>Instructor:caitanya</p>
+            </div>
+        </div>
+        <div class="div3">
+            <u><h3><i class='bx bx-notepad'></i>Pending Assinments<i class='bx bx-calendar-alt'></i></h3></u><br><br>
+            <p>1</p><br><br>
+            <p>css,combinators</p><br><br>
+            <p>Assined on: 2024-09-10</p>
+        </div>
+    </section>
+    <section class="batch">
+        <div class="a">Batch:22r</div>
+        <div class="b">Batch Students</div>
+    </section>
+    <div>
+        <div class="frame">
+
+    <table>
+     <tr class="fix">
+        <th class="si">SI</th>
+        <th>NAME</th>
+        <th>QUALIFICATION</th>
+        <th>MODE OF CLASS</th>
+     </tr>
+     <tr>
+        <td>1</td>
+        <td>laksman</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>2</td>
+        <td>kartik</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>3</td>
+        <td>srinivas</td>
+        <td>BA</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>4</td>
+        <td>ashok</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>5</td>
+        <td>akhil</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>6</td>
+        <td>sravan</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>7</td>
+        <td>devansh</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>8</td>
+        <td>praveen</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>9</td>
+        <td>aravind</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>10</td>
+        <td>abdul</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>11</td>
+        <td>vinay</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>12</td>
+        <td>prem kumar</td>
+        <td>BSC</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>13</td>
+        <td>chaitanya</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>14</td>
+        <td>saiteja</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>15</td>
+        <td>gopi krishna</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>16</td>
+        <td>verma</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>17</td>
+        <td>kalyan</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>18</td>
+        <td>ganesh</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>19</td>
+        <td>praksh</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+     <tr>
+        <td>20</td>
+        <td>prasanna</td>
+        <td>b-tech</td>
+        <td><button>offline</button></td>
+     </tr>
+    </table>
+    </div>
+   
+</body>
+</html>
